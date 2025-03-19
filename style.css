@@ -90,8 +90,38 @@ html,body {
     background-color: teal;
     grid-row: 1 / 3;
     grid-column: 1 / 1;
+    display:flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 16px;
 }
 
+.sidebar-top {
+    display:flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    gap: 8px;
+    padding-bottom: 48px;
+    padding-top: 16px;
+}
+.sidebar-items {
+    display:flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 24px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#sidebar-divider {
+    padding-bottom: 48px;
+}
+
+
+/* Main Content */
 .main-content {
     background-color: grey;
     grid-row: 2 / 2;
